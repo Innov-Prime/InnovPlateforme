@@ -70,7 +70,7 @@ const Service2 = () => {
   ]
   return (
     <>   
-      <Breadcumb Title="Services 02" Breadcumb="SERVICES" />
+      <Breadcumb Title="Stratégie de transformation digitale" Breadcumb="SERVICES" />
       <section className="section-padding--bottom section-padding--top service-details--page">
         <div className="container ">
           <div className="row ">

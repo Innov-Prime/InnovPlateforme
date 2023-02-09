@@ -38,20 +38,15 @@ const Footer = () => {
                                 <h3 className="footer-widget__title">Services</h3>
                                 <ul className="footer-widget__links">
                                     <li>
-                                        <Link to="/cyber-security">Cyber Security</Link>
+                                        <Link to="/service-01">Développement de solution web/mobile</Link>
                                     </li>
                                     <li>
-                                        <Link to="/it-management">IT Management</Link>
+                                        <Link to="/service-02">Stratégie de transformation digitale</Link>
                                     </li>
                                     <li>
-                                        <Link to="/qa-testing">QA & Testing</Link>
+                                        <Link to="/service-03">Consulting et accompagnements</Link>
                                     </li>
-                                    <li>
-                                        <Link to="/infrastructure-plan">Infrastructure Plan</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/it-consultant">IT Consultent</Link>
-                                    </li>
+                                  
                                 </ul>
                             </div>
                         </div>

@@ -28,7 +28,6 @@ import ClientFoot from "../../assets/client-foot.png"
 
 
 const Home = () => {
-
     const [ytShow, setytShow] = useState(false)
     const options = {
         loop: false,
@@ -157,12 +156,12 @@ const Home = () => {
                         <div className="container">
                             <div className="slider-one__content ">
                                 <div className="slider-one__title-wrapper">
-                                    <h2 className="slider-one__title">IT Solutions <br />
-                                        to Grow <span>Your</span> <br />
-                                        Business</h2>
+                                    <h2 className="slider-one__title">Faire du numérique <br />un levier de <br />
+                                    croissance des <br /> PME et PMI<span> </span> <br />
+                                       </h2>
                                 </div>
                                 <div className="slider-one__btns">
-                                    <Link to="/about" className="thm-btn slider-one__btn"><span>Learn More</span></Link>
+                                    <Link to="/contact" className="thm-btn slider-one__btn"><span>Contactez-nous</span></Link>
                                 </div>
                             </div>
                         </div>
@@ -175,12 +174,12 @@ const Home = () => {
                         <div className="container">
                             <div className="slider-one__content ">
                                 <div className="slider-one__title-wrapper">
-                                    <h2 className="slider-one__title">IT Solutions <br />
-                                        to Grow <span>Your</span> <br />
-                                        Business</h2>
+                                <h2 className="slider-one__title">Faire du numérique <br />un levier de <br />
+                                    croissance des PME et PMI<span> </span> <br />
+                                       </h2>
                                 </div>
                                 <div className="slider-one__btns">
-                                    <Link to="/about" className="thm-btn slider-one__btn"><span>Learn More</span></Link>
+                                    <Link to="/contact" className="thm-btn slider-one__btn"><span>Contactez-nous</span></Link>
                                 </div>
                             </div>
                         </div>
@@ -194,8 +193,9 @@ const Home = () => {
                     <div className="row gutter-y-30">
                         <div className="col-lg-3 col-md-6 col-sm-12">
                             <div className="service-card-two gray-bg">
-                                <h3 className="service-card-two__title"><Link to="/service-01">Quality Service</Link></h3>
-                                <p className="service-card-two__text">Sed perspe unde omnis natus sit voluptatem acc doloremue
+                                <h3 className="service-card-two__title"><Link to="/about">Année d'expérience</Link></h3>
+                                <p className="service-card-two__text">
+                                Innov'Prime à l'œuvre depuis 3 ans aux côtés de ses entreprises partenaires.
                                 </p>
                                 <div className="service-card-two__icon">
                                     <i className="icon-smart-tv"></i>
@@ -204,8 +204,9 @@ const Home = () => {
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-12">
                             <div className="service-card-two gray-bg">
-                                <h3 className="service-card-two__title"><Link to="/team">Expert Team</Link></h3>
-                                <p className="service-card-two__text">Sed perspe unde omnis natus sit voluptatem acc doloremue
+                                <h3 className="service-card-two__title"><Link to="/about">Notre expertise</Link></h3>
+                                <p className="service-card-two__text">
+                                Notre équipe est essentiellement constituée des jeunes engagés à notre cause.
                                 </p>
                                 <div className="service-card-two__icon">
                                     <i className="icon-link"></i>
@@ -214,8 +215,9 @@ const Home = () => {
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-12">
                             <div className="service-card-two gray-bg">
-                                <h3 className="service-card-two__title"><Link to="/contact">Excellent Support</Link></h3>
-                                <p className="service-card-two__text">Sed perspe unde omnis natus sit voluptatem acc doloremue
+                                <h3 className="service-card-two__title"><Link to="/about">Nos méthodes</Link></h3>
+                                <p className="service-card-two__text">
+                                Avec nos clients et partenaires, nous adoptons la méthode agile.
                                 </p>
                                 <div className="service-card-two__icon">
                                     <i className="icon-technical-support"></i>
@@ -224,8 +226,9 @@ const Home = () => {
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-12">
                             <div className="service-card-two gray-bg">
-                                <h3 className="service-card-two__title"><Link to="/about">Management</Link></h3>
-                                <p className="service-card-two__text">Sed perspe unde omnis natus sit voluptatem acc doloremue
+                                <h3 className="service-card-two__title"><Link to="/about">Nos valeurs</Link></h3>
+                                <p className="service-card-two__text"> 
+                                Le bon sens est au cœur de ce que nous faisons en plus de la RÉSILIENCE.
                                 </p>
                                 <div className="service-card-two__icon">
                                     <i className="icon-cctv"></i>
@@ -243,34 +246,37 @@ const Home = () => {
                         <div className="col-lg-6">
                             <div className="about-six__content">
                                 <div className="section-title">
-                                    <p className="section-title__text">Welcome to tech</p>
-                                    <h2 className="section-title__title">Best Talent, Competitive
-                                        Cast, Incredible IT Service
-                                        Infrastructure</h2>
+                                    <p className="section-title__text">Innov'Prime</p>
+                                    <h2 className="section-title__title">
+                                    Quelle est la valeur que nous vous apportons ?
+                                    </h2>
                                 </div>
-                                <div className="about-six__text">System is a term used to refer to an organized collection
-                                    symbols and processes that may be used to operate on such symbols. Perspiciatis unde
-                                    omnis natus error voluptatems accusa.</div>
+                                <div className="about-six__text">
+                                Nos expériences passées et notre équipe compétente, en plus de notre première
+                            valeur “La Résilience”, nous apportons non seulement notre expertise, mais aussi une assistance
+                                inestimable pour s’intéresser à ce que vous faites et mieux appréhender votre projet pour une exécution efficace.
+                                </div>
                                 <ul className="about-six__list">
                                     <li className="about-six__list__item">
                                         <i className="far fa-check-circle about-six__list__icon"></i>
                                         <h3 className="about-six__list__title count-box"><span className="count-text"
-                                        ><AnimatedNumber value={769} duration={1500} formatValue={(v) => Math.round(v)} /></span>
+                                        ><AnimatedNumber value={+20} duration={1500} formatValue={(v) => Math.round(v)} /></span>
                                         </h3>
-                                        <div className="about-six__list__text">Satisfied Clients</div>
+                                        <div className="about-six__list__text">Clients satisfaits</div>
                                     </li>
                                     <li className="about-six__list__item">
                                         <i className="far fa-check-circle about-six__list__icon"></i>
-                                        <h3 className="about-six__list__title count-box"><span className="count-text"
-                                        ><AnimatedNumber value={825} duration={1500} formatValue={(v) => Math.round(v)} /></span>
+                                        <h3 className="about-six__list__title count-box">
+                                            <span className="count-text">
+                                        <AnimatedNumber value={5} duration={1500} formatValue={(v) => Math.round(v)} /></span>
                                         </h3>
-                                        <div className="about-six__list__text">Projects Relased</div>
+                                        <div className="about-six__list__text">Solutions disponibles</div>
                                     </li>
                                 </ul>
                                 <div className="about-six__btns">
-                                    <Link to="/about" className="thm-btn"><span>learn more</span></Link>
-                                    <Link to="/service-01" className="about-six__link">
-                                        How it Work
+                                    <Link to="/contact" className="thm-btn"><span>Nous contacter</span></Link>
+                                    <Link to="/about" className="about-six__link">
+                                        Qui sommes-nous ?
                                         <i className="fa fa-angle-double-right"></i>
                                     </Link>
                                 </div>
@@ -291,7 +297,7 @@ const Home = () => {
                 style={{ backgroundImage: `url(${BG4})` }}>
                 <div className="container">
                     <div className="section-title text-center">
-                        <p className="section-title__text">Our clients</p>
+                        <p className="section-title__text">Nos clients</p>
                         <h2 className="section-title__title">Trusted Worldwide Peoples</h2>
                     </div>
 
@@ -416,49 +422,48 @@ const Home = () => {
                         <div className="row">
                             <div className="col-lg-7">
                                 <div className="section-title">
-                                    <p className="section-title__text">What We offier</p>
-                                    <h2 className="section-title__title section-title__title--light">Help you Overcome your
-                                        Technology Challenges</h2>
+                                    <p className="section-title__text">Nos outils à Innov'Prime</p>
+                                    <h2 className="section-title__title section-title__title--light">
+                                    Les technologies qui sont au cœur de nos services et de nos outils.
+                                    </h2>
                                 </div>
                             </div>
                             <div className="col-lg-5">
-                                <div className="service-three__block__text">Accusa ntium doloremque laudantium totam rem
-                                    aperiamea
-                                    queipsa quae abillo inventore veritatis.</div>
+                                <div className="service-three__block__text">
+                                Toutes les solutions que nous développons se reposent essentiellement sur des outils et
+des langages choisis stratégiquement pour rendre nos solutions évolutives et concurrentes.  
+                                </div>
                             </div>
                         </div>
                     </div>
+                    
                     <ul className="service-three__list">
                         <li className="service-three__list__item wow fadeInUp" data-wow-duration="1500ms"
                             data-wow-delay="000ms">
                             <i className="icon-coding service-three__list__icon"></i>
-                            <h3 className="service-three__list__title"><Link to="#">Website</Link></h3>
+                            <h3 className="service-three__list__title"><Link to="#">GitHub</Link></h3>
                         </li>
                         <li className="service-three__list__item wow fadeInUp" data-wow-duration="1500ms"
                             data-wow-delay="100ms">
                             <i className="icon-apple service-three__list__icon"></i>
-                            <h3 className="service-three__list__title"><Link to="#">IOS</Link></h3>
+                            <h3 className="service-three__list__title"><Link to="#">Python</Link></h3>
                         </li>
                         <li className="service-three__list__item wow fadeInUp" data-wow-duration="1500ms"
                             data-wow-delay="200ms">
                             <i className="icon-android service-three__list__icon"></i>
-                            <h3 className="service-three__list__title"><Link to="#">Android</Link></h3>
+                            <h3 className="service-three__list__title"><Link to="#">JavaScript</Link></h3>
                         </li>
                         <li className="service-three__list__item wow fadeInUp" data-wow-duration="1500ms"
                             data-wow-delay="300ms">
                             <i className="icon-iot service-three__list__icon"></i>
-                            <h3 className="service-three__list__title"><Link to="#">IOT</Link></h3>
+                            <h3 className="service-three__list__title"><Link to="#">PHP</Link></h3>
                         </li>
                         <li className="service-three__list__item wow fadeInUp" data-wow-duration="1500ms"
                             data-wow-delay="400ms">
                             <i className="icon-smartband service-three__list__icon"></i>
-                            <h3 className="service-three__list__title"><Link to="#">Wearalables</Link></h3>
+                            <h3 className="service-three__list__title"><Link to="#">AWS</Link></h3>
                         </li>
-                        <li className="service-three__list__item wow fadeInUp" data-wow-duration="1500ms"
-                            data-wow-delay="500ms">
-                            <i className="icon-tv service-three__list__icon"></i>
-                            <h3 className="service-three__list__title"><Link to="#">TV</Link></h3>
-                        </li>
+                        
                     </ul>
                 </div>
             </section>
@@ -468,7 +473,7 @@ const Home = () => {
             <section className="section-padding--bottom section-padding--top background-size-cover gray-bg work-process">
                 <div className="container">
                     <div className="section-title text-center">
-                        <p className="section-title__text">OUR WORKING PROCESS</p>
+                        <p className="section-title__text">NOTRE PROCESSUS DE TRAVAIL</p>
                         <h2 className="section-title__title">Driving Client Results Utilizing New <br />Innovation Points of view
                         </h2>
                     </div>
@@ -476,34 +481,39 @@ const Home = () => {
                         <div className="col-lg-4 wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="000ms">
                             <div className="work-process-card-one">
                                 <div className="work-process-card-one__count"></div>
-                                <h3 className="work-process-card-one__title"><Link to="/about">End to End <br />
-                                    Solutions & Services
-                                    Guaranteed</Link></h3>
-                                <div className="work-process-card-one__text">We help transform the world’s most important
-                                    businesses into vigorous organizations that </div>
-                                <Link className="work-process-card-one__link" to="/about">Read More</Link>
+                                <h3 className="work-process-card-one__title"><Link to="/about">
+                                Audit/Analyse complète sur le projet de notre client.                                           
+                                    </Link></h3>
+                                <div className="work-process-card-one__text"> Nous prenons le temps d’analyser ou d’offrir un audit complet à notre client afin
+d’évaluer et de comprendre ses demandes pour mieux le servir.</div>
+                                <Link className="work-process-card-one__link" to="/contact">Prendre un rendez-vous</Link>
                             </div>
                         </div>
                         <div className="col-lg-4 wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="100ms">
                             <div className="work-process-card-one">
                                 <div className="work-process-card-one__count"></div>
-                                <h3 className="work-process-card-one__title"><Link to="/service-01">Ahead of The Curve
-                                    We Future-proof
-                                    Your IT Solution</Link></h3>
-                                <div className="work-process-card-one__text">We help transform the world’s most important
-                                    businesses into vigorous organizations that </div>
-                                <Link className="work-process-card-one__link" to="/service-01">Read More</Link>
+                                <h3 className="work-process-card-one__title"><Link to="/about">
+                                Mise en place des cahiers de charge pour l’exécution du projet.
+                                </Link></h3>
+                                <div className="work-process-card-one__text">
+                                Les informations obtenues à l'issue de notre audit ou de nos analyses sont utilisées
+pour mettre en place un cahier de charge adapté à notre client.
+                                 </div>
+                                <Link className="work-process-card-one__link" to="/contact">Prendre un rendez-vous</Link>
                             </div>
                         </div>
                         <div className="col-lg-4 wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="200ms">
                             <div className="work-process-card-one">
                                 <div className="work-process-card-one__count"></div>
-                                <h3 className="work-process-card-one__title"><Link to="/contact">Experience
-                                    Certainty Every
-                                    Project Executed</Link></h3>
-                                <div className="work-process-card-one__text">We help transform the world’s most important
-                                    businesses into vigorous organizations that </div>
-                                <Link className="work-process-card-one__link" to="/contact">Read More</Link>
+                                <h3 className="work-process-card-one__title"><Link to="/about">
+                                Suivi et optimisation continue pour un résultat optimal.
+                                </Link>
+                                </h3>
+                                <div className="work-process-card-one__text">
+                                Au cours de l’exécution du projet, notre client à tout ce qu’il faut pour suivre le projet
+dans les moindres détails et nous faire part de ses éventuelles demandes.
+                                </div>
+                                <Link className="work-process-card-one__link" to="/contact">Prendre un rendez-vous</Link>
                             </div>
                         </div>
                     </div>
@@ -516,11 +526,13 @@ const Home = () => {
                     <div className="cta-one__inner  wow fadeInUp" data-wow-duration="1500ms">
                         <div className="cta-one__circle"></div>
                         <div className="section-title ">
-                            <h2 className="section-title__title section-title__title--light">Ready to Get Free Consulations <br />
-                                for Any Kind of it Solutions?</h2>
+                            <h2 className="section-title__title section-title__title--light">
+                            Nous offrons des consultations gratuites sur votre projet ou vos idées.
+                             Faites la demande maintenant…
+                            </h2>
                         </div>
                         <div className="cta-one--home-three__btns">
-                            <Link to="/contact" className="thm-btn thm-btn--light cta-one__btn"><span>Get A Quote</span></Link>
+                            <Link to="/contact" className="work-process-card-one__link btn btn-lg btn-light">FAIRE UNE DEMANDE</Link>
                         </div>
                     </div>
                 </div>

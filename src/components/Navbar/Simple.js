@@ -99,7 +99,7 @@ const Navbar = () => {
                                             <li className="menu-item-has-children">
                                                 <Link to="/service">Services</Link>
                                                 <ul style={{ display: "block" }}>
-                                                    <li><Link to="/service-01">Services 01</Link></li>
+                                                    <li><Link to="/service-01">Développement de solution web/mobile</Link></li>
                                                     <li><Link to="/service-02">Services 02</Link></li>
                                                     <li><Link to="/cyber-security">Cyber Security</Link></li>
                                                     <li><Link to="/it-management">IT Management</Link></li>

@@ -13,23 +13,23 @@ const Contact = () => {
                         <div className="col-lg-8">
                             <form action="assets/inc/sendemail.php" className="contact-one__form contact-form-validated">
                                 <div className="section-title">
-                                    <p className="section-title__text">Contact with us</p>
-                                    <h2 className="section-title__title">Join Us To Get IT Free
-                                        Consultations</h2>
+                                    <p className="section-title__text">Contactez-nous maintenant</p>
+                                    <h2 className="section-title__title">
+                                        Nous répondons dans un délai de 24 heures maximum
+                                        </h2>
                                 </div>
                                 <div className="row ">
                                     <div className="col-lg-6 col-md-12">
-                                        <input type="text" placeholder="Your name" name="name" />
+                                        <input type="text" placeholder="Votre nom" name="name" />
                                     </div>
                                     <div className="col-lg-6 col-md-12">
-                                        <input type="email" placeholder="Email address" name="email" />
+                                        <input type="email" placeholder="Adresse mail" name="email" />
                                     </div>
                                     <div className="col-lg-12 col-md-12">
-                                        <textarea name="message" placeholder="Write message"></textarea>
+                                        <textarea name="message" placeholder="Laissez un message"></textarea>
                                     </div>
                                     <div className="col-md-12">
-                                        <button className="thm-btn contact-one__btn" type="submit"><span>send a
-                                            message</span></button>
+                                        <button className="thm-btn contact-one__btn" type="submit"><span>Envoyez un message</span></button>
                                     </div>
                                 </div>
                             </form>

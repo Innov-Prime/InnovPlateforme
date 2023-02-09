@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { Link, useLocation, NavLink } from 'react-router-dom'
 import Logo from '../../assets/logo.png'
 import WOW from 'wowjs'
+
 
 const Navbar = () => {
     const location = useLocation()
@@ -107,30 +108,34 @@ const Navbar = () => {
 							</div>
 
 							<ul className="main-menu__list">
-								<li className="menu-item-has-children current">
-									<Link to="/">Accueil</Link>
+								<li className="menu-item-has-children ">
+									<NavLink style={({isActive}) =>{return {color: isActive?'white':''}}} className="nav-bar-link" to="/">
+									Accueil
+									</NavLink>
 								</li>
                     
 								<li className="menu-item-has-children">
-									<Link to="/solutions">Solutions</Link>
+									<NavLink style={({isActive}) =>{return {color: isActive?'white':''}}} className="nav-bar-link" to="/solutions">Solutions</NavLink>
 								</li>
-                                <li className="menu-item-has-children">
-									<Link to="/realisations">Réalisations</Link>
+                                <li className="menu-item-has-children ">
+									<NavLink style={({isActive}) =>{return {color: isActive?'white':''}}} className="nav-bar-link" to="/realisations">Réalisations</NavLink>
 								</li>
 
-								<li className="menu-item-has-children">
-									<Link to="/service">Services</Link>
+								<li className="menu-item-has-children ">
+									<NavLink style={({isActive}) =>{return {color: isActive?'white':''}}} className="nav-bar-link" to="/service">Services</NavLink>
 									<ul style={{display:"block"}}>
-										<li><Link to="/service-01">Services 01</Link></li>
-										<li><Link to="/service-02">Services 02</Link></li>
-										<li><Link to="/service-03">Services 03</Link></li>
+										<li><a href="/service-01">Développement de solution web/mobile</a></li>
+										<li><Link to="/service-02">Stratégie de transformation digitale</Link></li>
+										<li><Link to="/service-03">Consulting et accompagnements</Link></li>
 									</ul>
 								</li>
 								
-								<li className="menu-item-has-children">
-									<Link to="/about">A propos</Link>
+								<li className="menu-item-has-children ">
+									<NavLink style={({isActive}) =>{return {color: isActive?'white':''}}} className="nav-bar-link" to="/about">A propos</NavLink>
 								</li>
-								<li><Link to="/contact">Contact</Link></li>
+								<li className="menu-item-has-children ">
+									<NavLink style={({isActive}) =>{return {color: isActive?'white':''}}} className="nav-bar-link" to="/contact">Contact</NavLink>
+								</li>
 							</ul>
 
 							<div className="main-menu__right">
@@ -138,7 +143,7 @@ const Navbar = () => {
 									<span></span>
 									<span></span>
 									<span></span>
-								</Link>
+								</Link>  
 								<Link to="tel:+229 98981541" className="main-menu__cta">
 									<i className="fa fa-phone-alt"></i>
 									<span className="main-menu__cta__text">

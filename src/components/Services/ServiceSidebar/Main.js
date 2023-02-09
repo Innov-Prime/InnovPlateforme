@@ -8,9 +8,9 @@ const ServiceSidebar = () => {
       <div className="sidebar__item sidebar__item--category">
         <h3 className="sidebar__title">Categories</h3>
         <ul className="sidebar__category">
-          <li><Link to="/service-01">Service 1</Link></li>
-          <li><Link to="/service-02">Service 2</Link></li>
-          <li><Link to="/service-03">Service 3</Link></li>
+          <li><Link to="/service-01">Développement de solution web/mobile</Link></li>
+          <li><Link to="/service-02">Stratégie de transformation digitale</Link></li>
+          <li><Link to="/service-03">Consulting et accompagnement</Link></li>
         </ul>
       </div>
       <div className="sidebar__item sidebar__item--cta">

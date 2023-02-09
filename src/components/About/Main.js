@@ -63,23 +63,29 @@ const About = () => {
                         <div className="col-lg-6">
                             <div className="about-four__content">
                                 <div className="section-title ">
-                                    <p className="section-title__text">About Company</p>
-                                    <h2 className="section-title__title">The World’s Networking
-                                        Company</h2>
+                                    <p className="section-title__text">Qui sommes-nous?</p>
+                                    <h2 className="section-title__title">
+                                        Faire du numérique un levier de croissance des PME et PMI en Afrique.
+                                </h2>
                                 </div>
-                                <div className="about-four__text">Since from 2000 Building Your Better IT Solution The
-                                    definition of business is an occupation or trade & the purchase and sale of products Our
-                                    Mission & Vision Voice and Data System are crucial to the success.</div>
+                                <div className="about-four__text">
+                                    Innov'Prime est l'entité technologique de la société à 
+                                    responsabilité limitée SunWin N°RCCM RB/ABC/22 B 5713, avec un capital de 5.000.000 F CFA créée depuis 02 ans.<br/>
+
+                                    Nous avons pour mission de faire du numérique un levier de croissance des PME et PMI en Afrique. 
+                                    Nous accompagnons les entreprises dans leur transformation digitale à travers nos différents services et programmes que nous déployons.
+
+                                </div>
 
                                 <div className="about-four__meta">
                                     <div className="about-four__author">
                                         <img src="assets/images/resources/about-four-author-1.jpg" alt="" />
                                         <div className="about-four__author__content">
-                                            <h3 className="about-four__author__title">Michele Morrone</h3>
-                                            <div className="about-four__author__designation">Founder CEO</div>
+                                            <h3 className="about-four__author__title">Sunwin</h3>
+                                            <div className="about-four__author__designation">Fièrement propulser par Sunwin</div>
                                         </div>
                                     </div>
-                                    <Link to="/service-01" className="thm-btn about-four__btn"><span>Learn More</span></Link>
+                                    <Link to="/contact" className="thm-btn about-four__btn"><span>Nous contacter</span></Link>
                                 </div>
                             </div>
                         </div>
@@ -89,8 +95,8 @@ const About = () => {
             <section className="section-padding--bottom section-padding--top">
                 <div className="container">
                     <div className="section-title text-center">
-                        <p className="section-title__text">Our Team members</p>
-                        <h2 className="section-title__title">Our Expert Person to Provide <br /> IT Solution Services</h2>
+                        <p className="section-title__text">Notre équipe</p>
+                        <h2 className="section-title__title">Nous sommes des talents/experts <br /> engagés à vos côtés.</h2>
 
                     </div>
                     <div className="row gutter-y-30">
@@ -189,9 +195,9 @@ const About = () => {
                 <Parallax bgImage={BG1} bgImageAlt="" className="cta-two__bg section-padding-lg--top section-padding-lg--bottom" strength={300}>
                     <div className="container">
                         <div className="cta-two__inner">
-                            <h3 className="cta-two__title">Better IT Solutions And Services
-                                At Your <span>Fingertips</span></h3>
-                            <Link to="/contact" className="thm-btn cta-two__btn"><span>LEarn More</span></Link>
+                            <h3 className="cta-two__title">Nous offrons des consultations gratuites sur votre projet 
+                        ou vos <span>idées</span>. Faites la demande maintenant...</h3>
+                            <Link to="/contact" className="btn btn-lg btn-light"><span>FAIRE UNE DEMANDE</span></Link>
                         </div>
                     </div>
                 </Parallax>
@@ -204,17 +210,18 @@ const About = () => {
                         <div className="col-lg-5">
                             <div className="testimonials-two__content">
                                 <div className="section-title ">
-                                    <p className="section-title__text">Our clients</p>
-                                    <h2 className="section-title__title">We Are Trusted
-                                        Worldwide Peoples</h2>
+                                    <p className="section-title__text">Nos clients</p>
+                                    <h2 className="section-title__title">Quelques avis de nos clients récents
+                                    </h2>
                                 </div>
-                                <div className="testimonials-two__content__text">Sed ut perspiciatis unde omnis natus error sit
-                                    voluptatem accusa ntium doloremque laudantium totam rem aperiamea queipsa quae abillo
-                                    inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</div>
-                                <div className="testimonials-two__content__text">Pellentesque gravida lectus vitae nisi luctus,
-                                    Finibus aliquet ligula ultrices.</div>
-                                <Link to="/about" className="thm-btn testimonials-two__content__btn"><span>View All
-                                    feedbacks</span></Link>
+                                <div className="testimonials-two__content__text">
+                                Nous n'essayons pas de vous prouver que nous sommes les meilleurs, nous vous demandons de confier vos projets à des professionnels comme nous, qui connaissent ce qu’ils
+font et qui surtout peut vous permettre de passer à un niveau remarquable dans votre entreprise.
+                                </div>
+                                <div className="testimonials-two__content__text">Rejoignez nos entreprises clientes et partenaire pour œuvrer pour l’éclosion numérique de
+l’Afrique à travers votre croissance.</div>
+                                <Link to="/contact" className="thm-btn testimonials-two__content__btn"><span>Prendre un rendez-vous
+                                    </span></Link>
                             </div>
                         </div>
                         <div className="col-lg-7">

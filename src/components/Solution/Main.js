@@ -3,22 +3,15 @@ import { Link } from 'react-router-dom'
 import OwlCarousel from 'react-owl-carousel';
 import Breadcumb from '../Breadcumb/Main'
 
-import BG1 from '../../assets/images/background/slider-2-1.jpg'
-import BG2 from '../../assets/images/background/slider-2-2.jpg'
-import BG6 from '../../assets/images/projects/project-3-1.jpg'
-import BG7 from '../../assets/images/projects/project-3-2.jpg'
-import BG8 from '../../assets/images/projects/project-3-3.jpg'
-import BG9 from '../../assets/images/projects/project-3-4.jpg'
 
-import PRG1 from '../../assets/project-2-1.jpg'
-import PRG2 from '../../assets/project-2-2.jpg'
-import PRG3 from '../../assets/project-2-4.jpg'
-import PRG4 from '../../assets/project-2-1.jpg'
+import BG1 from '../../assets/project-2-1.jpg'
+import BG2 from '../../assets/project-2-2.jpg'
+import BG3 from '../../assets/project-2-4.jpg'
 
 import { Parallax } from 'react-parallax'
 
 const Solution = () => {
-    
+
     const logoOptions = {
         loop: true,
         autoplay: true,
@@ -59,11 +52,11 @@ const Solution = () => {
     }
 
     const projectOptions = {
-        loop: false,
-        nav: false,
+        loop: true,
+        nav: true,
         autoWidth: true,
         navText: ["<span class=\"fa-solid fa-angle-left\"></span>", "<span class=\"fa-solid fa-angle-right\"></span>"],
-        dots: false,
+        dots: true,
         margin: 10,
         items: 1,
         smartSpeed: 700,
@@ -139,60 +132,67 @@ const Solution = () => {
                         </div>
                     </div>
 
-                    <OwlCarousel className="thm-owl__carousel project-one__carousel thm-owl__carousel--with-shadow" {...projectOptions}>
-                        <div className="item">
-                            <div className="project-card-one">
-                                <div className="project-card-one__image">
-                                    <img src={PRG1} alt="" />
-                                </div>
-                                <div className="project-card-one__content">
-                                    <div className="project-card-one__content__inner" >
-                                        <p className="project-card-one__text">IT Technology Solution</p>
-                                        <h3 className="project-card-one__title"><Link to="/solution-details">Data Recovery
-                                            Analysis</Link></h3>
-                                        <Link to="/solution-details1" className="project-card-one__more">
-                                            <i className="fa fa-angle-right"></i>
-                                        </Link>
+                    <section className="section-padding--bottom section-padding--top">
+                        <div className="container">
+                            <div className="row gutter-y-30">
+                                <div className="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms"
+                                    data-wow-delay="000ms">
+                                    <div className="project-card-one">
+                                        <div className="project-card-one__image">
+                                            <img src={BG1} alt="" />
+                                        </div>
+                                        <div className="project-card-one__content">
+                                            <div className="project-card-one__content__inner">
+                                                <p className="project-card-one__text">IT Technology Solution</p>
+                                                <h3 className="project-card-one__title"><Link to="/realisation-details1">Data Recovery
+                                                    Analysis</Link></h3>
+                                                <Link to="/realisation-details1" className="project-card-one__more">
+                                                    <i className="fa fa-angle-right"></i>
+                                                </Link>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div className="item">
-                            <div className="project-card-one">
-                                <div className="project-card-one__image">
-                                    <img src={PRG2} alt="" />
-                                </div>
-                                <div className="project-card-one__content">
-                                    <div className="project-card-one__content__inner">
-                                        <p className="project-card-one__text">IT Technology Solution</p>
-                                        <h3 className="project-card-one__title"><Link to="/solution-details">Data Recovery
-                                            Analysis</Link></h3>
-                                        <Link to="/solution-details2" className="project-card-one__more">
-                                            <i className="fa fa-angle-right"></i>
-                                        </Link>
+                                <div className="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms"
+                                    data-wow-delay="100ms">
+                                    <div className="project-card-one">
+                                        <div className="project-card-one__image">
+                                            <img src={BG2} alt="" />
+                                        </div>
+                                        <div className="project-card-one__content">
+                                            <div className="project-card-one__content__inner">
+                                                <p className="project-card-one__text">IT Technology Solution</p>
+                                                <h3 className="project-card-one__title"><Link to="/realisation-details2">Data Recovery
+                                                    Analysis</Link></h3>
+                                                <Link to="/realisation-details2" className="project-card-one__more">
+                                                    <i className="fa fa-angle-right"></i>
+                                                </Link>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div className="item">
-                            <div className="project-card-one">
-                                <div className="project-card-one__image">
-                                    <img src={PRG3} alt="" />
-                                </div>
-                                <div className="project-card-one__content">
-                                    <div className="project-card-one__content__inner">
-                                        <p className="project-card-one__text">IT Technology Solution</p>
-                                        <h3 className="project-card-one__title"><Link to="/solution-details">Data Recovery
-                                            Analysis</Link></h3>
-                                        <Link to="/solution-details3" className="project-card-one__more">
-                                            <i className="fa fa-angle-right"></i>
-                                        </Link>
+                                <div className="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms"
+                                    data-wow-delay="200ms">
+                                    <div className="project-card-one">
+                                        <div className="project-card-one__image">
+                                            <img src={BG3} alt="" />
+                                        </div>
+                                        <div className="project-card-one__content">
+                                            <div className="project-card-one__content__inner">
+                                                <p className="project-card-one__text">IT Technology Solution</p>
+                                                <h3 className="project-card-one__title"><Link to="/realisation-details3">Data Recovery
+                                                    Analysis</Link></h3>
+                                                <Link to="/realisation-details3" className="project-card-one__more">
+                                                    <i className="fa fa-angle-right"></i>
+                                                </Link>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
-                     
-                    </OwlCarousel>
+                    </section>
                 </div>
             </section>
         </>

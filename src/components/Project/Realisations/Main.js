@@ -10,7 +10,7 @@ import BG4 from '../../../assets/project-2-1.jpg'
 const Projects = () => {
   return (
     <>
-    <Breadcumb Title="Projects" Breadcumb="PROJECT" />
+    <Breadcumb Title="Réalisations" Breadcumb="REALISATION" />
     <section className="section-padding--bottom section-padding--top">
 			<div className="container">
 				<div className="row gutter-y-30">
